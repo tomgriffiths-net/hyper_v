@@ -1,9 +1,5 @@
 <?php
-//Your Settings can be read here: settings::read('myArray/settingName') = $settingValue;
-//Your Settings can be saved here: settings::set('myArray/settingName',$settingValue,$overwrite = true/false);
 class hyper_v{
-    //public static function command($line):void{}//Run when base command is class name, $line is anything after base command (string). e.g. > [base command] [$line]
-    //public static function init():void{}//Run at startup
     public static function backupVm(string $name, string $destination):bool{
         if(is_admin::check()){
             $info = self::getVmInfo($name);

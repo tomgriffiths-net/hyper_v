@@ -1,0 +1,10 @@
+{
+    "dependencies": {
+        "is_admin":1
+    },
+    "id_name": "hyper_v",
+    "version": 1,
+    "author": "tom",
+    "name": "PHP cli updater",
+    "description": ""
+}
