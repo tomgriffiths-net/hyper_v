@@ -100,9 +100,6 @@ class hyper_v{
                 if(count($vmInfoPart) === 7){
                     $vmInfo[] = $vmInfoPart;
                 }
-                else{
-                    $vmInfo[] = array();
-                }
             }
         }
         return $vmInfo;
