@@ -1,10 +1,10 @@
 {
-    "dependencies": {
-        "is_admin":1
-    },
     "id_name": "hyper_v",
+    "name": "Hyper-V manager (Dev)",
     "version": 2,
     "author": "tom",
-    "name": "PHP cli updater",
-    "description": ""
+    "description": "",
+    "dependencies": {
+        "is_admin":1
+    }
 }
